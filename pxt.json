@@ -1,0 +1,28 @@
+{
+    "name": "无标题",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "sensors": "github:aiplaycode/sensorbit#d09f2e3b2df348b4269704b629a30fd2ed6ede25",
+        "EMmqtt": "github:aiplaycode/pxt-mqtt#816ad49942513168a83aca302ab119565ec8fbc8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
